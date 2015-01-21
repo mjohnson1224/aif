@@ -1,0 +1,80 @@
+.footer {
+  background: #3A3A3C;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.footer .footer_box {
+  width: 220px;
+  padding: 10px 10px;
+  float: left;
+}
+.footer .footer_box h4 {
+  font-weight: normal;
+  color: #eee;
+}
+.footer .footer_box ul {
+  list-style: none;
+  margin-left: 0px;
+}
+.footer .footer_box ul li {
+  border-bottom: solid 1px #555;
+  padding: 4px 10px;
+}
+.footer .footer_box ul li:last-child {
+  border-bottom: 0px;
+}
+.footer .footer_box ul li a {
+  color: #bbb;
+}
+.footer .footer_box ul li a:hover {
+  color: #eee;
+  text-decoration: none;
+}
+.footer .twitter_wrapper {
+  margin-top: 18px;
+  float: left;
+}
+.footer .twitter_wrapper .twitter_logo {
+  width: 43px;
+  height: 30px;
+  background: url('../img/twitter_icon.png') left top no-repeat;
+  float: left;
+}
+.footer .twitter_wrapper .twitter_button {
+  margin-left: 7px;
+  margin-top: 7px;
+  float: left;
+  color: #4DB0D0;
+}
+.footer .twitter_wrapper .twitter_button:hover {
+  text-decoration: none;
+  color: #68C7DD;
+}
+.arrow_box {
+  position: relative;
+  background: #2D2E2D;
+  padding: 25px 12px;
+}
+.arrow_box a {
+  color: #4DB0D0;
+}
+.arrow_box a:hover {
+  color: #68C7DD;
+}
+.arrow_box:after {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.arrow_box:after {
+  border-color: rgba(51, 51, 51, 0);
+  border-top-color: #2D2E2D;
+  border-width: 13px;
+  left: 20%;
+  margin-left: -10px;
+}

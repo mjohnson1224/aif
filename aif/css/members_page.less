@@ -1,0 +1,33 @@
+@import "app.less";
+@import "mixin.less";
+@aif_orange: #DB8627;
+@import "footer.less";
+@import "header.less";
+@import "splash.less";
+
+.top_section{
+	.linear-gradient(#EEE, #F6F6F6, 0, 100%, 0deg);
+}
+
+.member_small_picture_album{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	.member_small_picture{
+		cursor: pointer;
+		height: 86px;
+		width: 86px;
+		margin: 5px;
+		float: left;
+		opacity: 1;
+		img{
+			height: 86px;
+			width: 86px;
+		}
+		.hidden{
+			display: none;
+		}
+		&.active{
+			opacity: .6;
+		}
+	}
+}

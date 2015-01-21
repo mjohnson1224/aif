@@ -1,0 +1,174 @@
+.top_box_nav {
+  margin-left: 50px;
+}
+.top_box_nav .top_box_nav_tab {
+  float: left;
+  margin: 0px 3px;
+  background: #db8627;
+  color: #FFF;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+.top_box_nav .top_box_nav_tab.dark_nav {
+  background: #323232;
+}
+.general_page_container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.general_page_container .general_page_content {
+  float: left;
+  margin-left: 10px;
+  width: 790px;
+}
+.general_page_container .general_page_content.members {
+  height: 190px;
+}
+.general_page_container .general_page_content ul {
+  margin-bottom: 10px;
+}
+.general_page_container .general_page_content ul li {
+  font-size: 15px;
+  line-height: 1.4;
+}
+.general_page_container .general_page_content ul li:first-child {
+  font-weight: bold;
+  font-size: 16px;
+}
+.general_page_container .general_page_content ul li i {
+  opacity: .3;
+}
+.general_page_container .picture {
+  height: 150px;
+  width: 150px;
+  padding: 3px;
+  border: solid 2px #999;
+  float: left;
+}
+.general_page_container .picture img {
+  height: 100%;
+  width: 100%;
+}
+.general_page_container.two_column {
+  width: 47%;
+  float: left;
+  padding: 0px 1%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 1%;
+  background: #F6F7F6;
+}
+.general_page_container.two_column h4 a {
+  color: #2C4597;
+}
+.general_page_container.two_column h4 a:hover {
+  text-decoration: underline;
+}
+.general_page_container.two_column .general_page_content {
+  width: 355px;
+}
+.general_page_container.two_column .general_page_content p {
+  max-height: 50px;
+  overflow: hidden;
+}
+.general_page_container.two_column .picture_wrapper {
+  float: left;
+  width: 85px;
+}
+.general_page_container.two_column .picture_wrapper .picture {
+  height: 75px;
+  width: 75px;
+  margin-bottom: 6px;
+}
+.general_page_container.two_column .picture_wrapper .buy_button {
+  display: block;
+  margin: 0px auto;
+}
+.main_header {
+  border-top: solid 3px #db8627;
+  border-bottom: solid 3px #db8627;
+}
+.main_header h4 {
+  float: left;
+  font-size: 25px;
+  font-weight: normal;
+  margin-left: 15px;
+}
+.main_header h4.main_header_title {
+  color: #989898;
+  border-right: solid 1px #CCCCCB;
+  padding-right: 15px;
+  margin-left: 0px;
+}
+.main_header a {
+  float: right;
+  opacity: .5;
+  margin-top: 12px;
+  color: black;
+}
+.main_header a i {
+  margin-top: -1px;
+}
+.main_header a:hover {
+  opacity: .8;
+}
+.top_section {
+  padding-bottom: 30px;
+  background-color: #f6f6f6;
+  background: -webkit-linear-gradient(90deg, #dddddd 0, #f6f6f6 100%);
+  background: -moz-linear-gradient(90deg, #dddddd 0, #f6f6f6 100%);
+  background: -ms-linear-gradient(90deg, #dddddd 0, #f6f6f6 100%);
+  background: -o-linear-gradient(90deg, #dddddd 0, #f6f6f6 100%);
+  background: linear-gradient(0deg, #dddddd 0, #f6f6f6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000');
+}
+.top_section .top_box {
+  background: #FFF;
+  border-top: solid 4px #db8627;
+  box-shadow: 0 15px 30px #666666;
+  -moz-box-shadow: 0 15px 30px #666666;
+  -webkit-box-shadow: 0 15px 30px #666666;
+  padding: 15px;
+}
+.top_section .top_box .left_box {
+  width: 640px;
+  float: left;
+  height: 368px;
+}
+.top_section .top_box .left_box .carousel {
+  margin-bottom: 0px;
+}
+.top_section .top_box .left_box .carousel-caption h4 {
+  font-size: 16px;
+}
+.top_section .top_box .right_box {
+  width: 275px;
+  float: right;
+}
+.top_section .top_box .right_box .right_box_header {
+  background: #db8627;
+  color: #FFF;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+.top_section .top_box .right_box .right_box_header span {
+  font-size: 12px;
+}
+.top_section .top_box .right_box .right_box_content {
+  padding: 10px;
+  background: #FFF;
+  border: solid 1px #CCCCCB;
+}
+.top_section .top_box .right_box .right_box_content p {
+  font-size: 13px;
+  line-height: 1.3;
+  padding: 30px 0px;
+}
+.top_section .top_box .right_box .right_box_content .right_box_buttons_wrapper {
+  width: 180px;
+  margin: 0px auto;
+}
+.top_section .top_box .right_box .right_box_content .right_box_buttons_wrapper button {
+  margin: 0px 3px;
+}
